@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: ar.edu.unlp.info.ejercicio2.balanzaElectronica.BalanzaTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ar.edu.unlp.info.ejercicio2.balanzaElectronica.BalanzaTest
+testEmitirTicket  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0.2> but was: <23.0>
+	at ar.edu.unlp.info.ejercicio2.balanzaElectronica.BalanzaTest.testEmitirTicket(BalanzaTest.java:64)
+
+testCantidadDeProductos  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
+	at ar.edu.unlp.info.ejercicio2.balanzaElectronica.BalanzaTest.testCantidadDeProductos(BalanzaTest.java:56)
+
+testAgregarProducto  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
+	at ar.edu.unlp.info.ejercicio2.balanzaElectronica.BalanzaTest.testAgregarProducto(BalanzaTest.java:47)
+
